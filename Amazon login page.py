@@ -13,13 +13,13 @@ SignIn = driver.find_element(By.ID, 'nav-link-accountList-nav-line-1').click()
 print("Test#1 Sign In: Passed!")
 
 #Enter Email - Test #2
-EmailID = driver.find_element_by_id('ap_email').send_keys("eljinwhitehead@gmail.com", Keys.TAB)
+EmailID = driver.find_element_by_id('ap_email').send_keys("email_here", Keys.TAB)
 ContineButton = driver.find_element_by_id("continue").click()
 print("Test#2 - Enter Email: Passed!")
 
 driver.implicitly_wait(1)
 #Enter Password - Test#3
-PasswordID = driver.find_element_by_id('ap_password').send_keys("!3styx4$", Keys.ENTER)
+PasswordID = driver.find_element_by_id('ap_password').send_keys("Password_here", Keys.ENTER)
 #Password page options
 #SignOnButton = driver.find_element(By.ID,'signInSubmit').click()
 #ForgotPassButton = driver.find_element_by_id('auth-fpp-link-bottom').click()
