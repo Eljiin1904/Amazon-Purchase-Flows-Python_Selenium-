@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
 
-driver = webdriver.Chrome(executable_path="C:\\Users\eljin\\Downloads\\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="C:\\Chromedriver_path_here")
 print(type(driver))
 driver.implicitly_wait(5)
 
